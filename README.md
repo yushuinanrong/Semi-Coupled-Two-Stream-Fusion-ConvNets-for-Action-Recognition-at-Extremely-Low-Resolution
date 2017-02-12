@@ -17,3 +17,10 @@ in each case and compute correct classification rate (CCR) and standard deviatio
 The second dataset is HMDB51 dataset. The HMDB dataset
 consists of 6,849 videos divided into 51 action categories. We followed the same way to generate the eLR and HR versions as described above.
 
+# ConvNet Library
+
+We implemented the models and conducted experiments in Matconvnet toolbox (1.0-beta23).
+You can download the toolbox use the link: http://www.vlfeat.org/matconvnet/.
+
+Please follow the toolbox instruction to install and compile. 
+
