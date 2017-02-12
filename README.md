@@ -28,3 +28,12 @@ You can download the toolbox use the link: http://www.vlfeat.org/matconvnet/.
 
 Please follow the toolbox instruction to install and compile. 
 
+# Optical flow
+
+We computed the colored optical flow using Dr.Chi Liu's toolbox. You can download it use the link: https://people.csail.mit.edu/celiu/OpticalFlow/
+
+# Reference
+
+For more details, please refer to our paper:
+
+J. Chen, J. Wu, J. Konrad, and P. Ishwar, “Semi-Coupled Two-Stream Fusion ConvNets for Action Recognition at Extremely Low Resolutions,” in Proc. 2017 IEEE Winter Conference on Applications of Computer Vision (WACV), Mar. 2017.
