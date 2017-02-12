@@ -17,6 +17,10 @@ in each case and compute correct classification rate (CCR) and standard deviatio
 The second dataset is HMDB51 dataset. The HMDB dataset
 consists of 6,849 videos divided into 51 action categories. We followed the same way to generate the eLR and HR versions as described above.
 
+You can download the original IXMAS ROI sequences use the link: http://cvlab.epfl.ch/data/ixmas10
+
+For HMDB, you can download the dataset use the link: http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/
+
 # ConvNet Library
 
 We implemented the models and conducted experiments in Matconvnet toolbox (1.0-beta23).
