@@ -1,2 +1,19 @@
 # Semi-Coupled-Two-Stream-Fusion-ConvNets-for-Action-Recognition-at-Extremely-Low-Resolution
-WACV 2017
+
+We leveraged deep learning techniques and proposed multiple, end-to-end ConvNets for action recognition from extremely Low Resolution (eLR) videos (e.g., 16 × 12 pixels). We proposed multiple eLR ConvNet architectures, each leveraging and fusing spatial and temporal information. Further, in order to leverage high resolution (HR) videos in training, we incorporated eLR-HR coupling to learn an intelligent mapping between the eLR and HR feature spaces. The effectiveness of this architecture has been validated on two public datasets on which our algorithms have outperformed state-of-the-art methods.
+
+# Datasets:
+
+we conducted experiments on two publiclyavailable video datasets.
+We first used the ROI sequences from the multi-view IXMAS action dataset, where each
+subject occupies most of the field of view. This dataset
+includes 5 camera views, 12 daily-life motions each performed
+3 times by 10 actors in an indoor scenario. To generate the eLR videos (thus eLR-IXMAS), we decimated the original frames to
+16×12 pixels and then upscaled them back to 32×32 pixels
+by bi-cubic interpolation. On the other hand, we generate the HR data by decimating the original frames straight to
+32 × 32 pixels. We perform leave-person-out cross validation
+in each case and compute correct classification rate (CCR) and standard deviation (StDev) to measure performance.
+
+The second dataset is HMDB51 dataset. The HMDB dataset
+consists of 6,849 videos divided into 51 action categories. We followed the same way to generate the eLR and HR versions as described above.
+
