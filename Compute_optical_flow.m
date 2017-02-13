@@ -1,6 +1,6 @@
 addpath('mex');
 % Author: Jiawei Chen
-% Revised based on Chi Liu's code : https://people.csail.mit.edu/celiu/OpticalFlow/
+% Revised based on Dr Chi Liu's code : https://people.csail.mit.edu/celiu/OpticalFlow/
 
 a = load('your\data\path');% load your video data
 [w,h,c,num] = size(a.images.data);
