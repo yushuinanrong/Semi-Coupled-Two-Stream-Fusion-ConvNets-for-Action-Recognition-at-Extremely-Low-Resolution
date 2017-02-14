@@ -23,7 +23,7 @@ For HMDB, you can download the dataset use the link: http://serre-lab.clps.brown
 
 # ConvNet Library
 
-We implemented the models and conducted experiments in Matconvnet toolbox (1.0-beta23).
+We implemented the models and conducted experiments in the Matconvnet toolbox (1.0-beta23).
 You can download the toolbox use the link: http://www.vlfeat.org/matconvnet/.
 
 Please follow the toolbox instruction to install and compile. 
